@@ -7,21 +7,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29705318"))
-API_HASH = getenv("API_HASH", "3e2781d669267ba9165147f70110cc4e")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6294984476:AAGd2jS5j-OgmfMd2pyeGaI36WYUgHIt_5o")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ridhuhu:mickeyboy@cluster0.44r1hmh.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001811095806"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "「⋆-ᴍɪᴄᴋǝʏ ✘ ᴍᴜsɪᴄ-°◇」")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5705628544").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Itz-Lakshya/Hlo-Jaan")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AdhikariThakur/Hlo-Jaan")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
